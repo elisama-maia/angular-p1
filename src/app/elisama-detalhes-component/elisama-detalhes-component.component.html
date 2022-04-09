@@ -1,0 +1,8 @@
+<ul *ngFor="let disciplina of disciplinas.getList(); index as i">
+  <li>{{ disciplina.codigo }}</li>
+  <li>{{ disciplina.nome }}</li>
+  <li>{{ disciplina.diaDaSemana }}</li>
+  <li>{{ disciplina.horario }} horas</li>
+</ul>
+<a [routerLink]="['../disciplinas']">Voltar</a>
+<router-outlet></router-outlet>
