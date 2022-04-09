@@ -15,7 +15,6 @@ import { ElisamaDetalhesComponentComponent } from './elisama-detalhes-component/
     BrowserModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', component: AppComponent },
       { path: 'elisama', component: ElisamaComponentComponent },
       { path: 'disciplinas', component: ElisamaListaComponentComponent },
       {
